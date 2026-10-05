@@ -1,0 +1,70 @@
+# Python bytecode and interpreter caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Native Python extensions
+*.so
+*.dylib
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# uv local cache (uv.lock is intentionally committed)
+.uv-cache/
+
+# Packaging and build output
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+wheels/
+
+# Test, coverage, and benchmark output
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.hypothesis/
+.tox/
+.nox/
+.benchmarks/
+
+# Linters, type checkers, and language servers
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.pyright/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Local environment and secret files
+.env
+.env.*
+!.env.example
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating-system metadata
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak

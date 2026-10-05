@@ -1,0 +1,43 @@
+[simulation]
+internal_sample_rate_hz = 1.0e9
+random_seed = 42
+
+[pulse_source]
+pulse_count = 30
+pulse_interval_s = 60.0e-9
+pulse_width_s = 5.0e-9
+amplitude = 1.0
+leading_guard_s = 200.0e-9
+trailing_guard_s = 200.0e-9
+
+[channel]
+reference_delay_s = 33.36e-9
+remote_delay_s = 90.39e-9
+reference_amplitude = 1.0
+remote_amplitude = 0.75
+snr_db = 20.0
+
+[frontend]
+rf_equivalent_bandwidth_hz = 275.0e6
+rx_gain_db = 20.0
+attenuation_db = 20.0
+detector_mode = "square_law"
+detector_lowpass_hz = 60.0e6
+filter_order = 6
+
+[adc]
+sample_rate_hz = 125.0e6
+bits = 12
+full_scale_v = 1.6
+
+[alignment]
+expected_relative_delay_s = 57.03e-9
+search_half_width_s = 20.0e-9
+estimation_bandwidth_hz = 50.0e6
+
+[science]
+duration_s = 100.0e-6
+tone_frequency_hz = 20.0e6
+decimation_factor = 3
+free_running_clock_error_ppm = 1.0
+shared_clock_error_ppm = 0.0

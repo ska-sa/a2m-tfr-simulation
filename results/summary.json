@@ -1,0 +1,13 @@
+{
+  "true_relative_delay_ns": 57.03,
+  "coarse_delay_ns": 56.0,
+  "fine_delay_ns": 1.0520173258813263,
+  "estimated_relative_delay_ns": 57.05201732588132,
+  "delay_error_ns": 0.022017325881322342,
+  "coherence_free_running_percent": 81.96767525423469,
+  "coherence_shared_clock_uncorrected_percent": 81.72573502673045,
+  "coherence_corrected_percent": 99.9998086235031,
+  "simulated_capture_samples": 269,
+  "simulated_capture_size": "536.00 B",
+  "effective_science_sample_rate_hz": 41666666.666666664
+}
